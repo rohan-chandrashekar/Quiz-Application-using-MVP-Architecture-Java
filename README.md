@@ -101,7 +101,7 @@ Ensure the following are installed on your system:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/Quizzy-App.git
+   git clone https://github.com/rohan-chandrashekar/Quizzy-App.git
    cd Quizzy-App
    ```
 
