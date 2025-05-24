@@ -12,6 +12,8 @@ import java.io.Serializable;
  * - quizPoints: The number of points the quiz is worth
  */
 public class Quiz implements Serializable {
+    private static final long serialVersionUID = 1L;
+
     private int quizBoardID;
 
     private int quizID;
