@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.Map;
 
 /**
- * This class represents a Quiz board.
+ * Represents a QuizBoard in the Quizzy application.
  * A quiz board is a collection of quizzes.
  * A quiz board contains the following information:
  * - quizID: The ID of the quiz board
@@ -20,6 +20,8 @@ import java.util.Map;
  * - numberOfQuestions: The number of questions in the quiz board
  */
 public class QuizBoard implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     private int quizID;
 

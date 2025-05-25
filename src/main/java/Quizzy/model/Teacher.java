@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 /**
+ * Represents a Teacher in the Quizzy application.
  * This class is used to store teachers' information
  * It contains the following fields:
  * - fullName: The full name of the teacher
@@ -16,6 +17,7 @@ import java.util.Date;
  * - dateCreated: The date the teacher account was created
  */
 public class Teacher implements Serializable {
+    private static final long serialVersionUID = 1L;
     private String fullName;
 
     private String email;
